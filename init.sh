@@ -15,7 +15,7 @@ xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 curl https://raw.githubusercontent.com/fontclos/digitalocean-pyenv/master/create_new_user.sh?token=AJ99IZAQns_J-oPIUalmE1w6YA_eboF8ks5cVzlcwA%3D%3D | bash
 
 # switch to new user
-su - fontclos
+sudo -u fontclos bash << EOF
 
 # install pyenv
 curl https://pyenv.run | bash
@@ -27,6 +27,18 @@ eval \"\$(pyenv virtualenv-init -)\"" >> /home/fontclos/.bashrc
 
 # install a few python versions
 pyenv install 3.7.0
-pyenv install 3.6.0
-pyenv install 3.5.0
-pyenv install 3.4.0
+#pyenv install 3.6.0
+#pyenv install 3.5.0
+#pyenv install 3.4.0
+#pyenv install 3.3.0
+#pyenv install 3.2
+#pyenv install 3.1
+#pyenv install 2.7
+#pyenv install 2.6.6
+#pyenv install 2.5
+#pyenv install 2.4
+#pyenv install 2.3.7
+#pyenv install 2.2.3
+pyenv install 2.1.3
+
+EOF
