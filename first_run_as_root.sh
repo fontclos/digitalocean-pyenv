@@ -12,5 +12,4 @@ xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 
 # make new user
 # bash create_new_user.sh
-curl https://raw.githubusercontent.com/fontclos/digitalocean-pyenv/master/create_new_user.sh?token=AJ99IZAQns_J-oPIUalmE1w6YA_eboF8ks5cVzlcwA%3D%3D | bash
-
+curl https://raw.githubusercontent.com/fontclos/digitalocean-pyenv/master/create_new_user.sh
