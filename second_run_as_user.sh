@@ -8,6 +8,7 @@ echo "export PATH=\"/home/fontclos/.pyenv/bin:\$PATH\"
 eval \"\$(pyenv init -)\"
 eval \"\$(pyenv virtualenv-init -)\"" >> /home/fontclos/.bashrc
 
+source /home/fontclos/.bashrc
 
 # install a few python versions
 pyenv install 3.7.0
